@@ -1,0 +1,16 @@
+.hover{
+  text:white;
+  font-size: 16px!important;
+  font-weight: 600;
+  transition: 0.3s ease-in;
+  cursor:pointer;
+}
+.hover:hover{
+  font-size: 18px!important;
+  text:black;
+  font-weight: bolder;
+}
+.logo{
+  font-size: 20px;
+  font-weight: bolder;
+}
