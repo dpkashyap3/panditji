@@ -1,13 +1,16 @@
 import React from 'react';
 import './App.css';
 import Nav from "./components/Nav";
-import Jumbo from "./components/Jumbo";
+import Home from "./components/Home";
+import {BrowserRouter as Router} from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
+    <Router>
       <Nav/>
-      <Jumbo/>
+      <Home/>
+      </Router>
     </div>
   );
 }

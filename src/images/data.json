@@ -1,0 +1,41 @@
+[
+    {
+    "name":"Aries",
+    "url":"../images/SunSign/Aries.png"
+},
+{
+    "name":"Aquarius",
+    "url":"../images/SunSign/Aquarius.png"
+},
+{
+    "name":"Cancer",
+    "url":"../images/SunSign/Cancer.png"
+},
+{
+    "name":"Capricon",
+    "url":"../images/SunSign/Capricon.png"
+},
+{
+    "name":"Gemini",
+    "url":"../images/SunSign/Gemini.png"
+},
+{
+    "name":"Pisces",
+    "url":"../images/SunSign/Pices.png"
+},
+{
+    "name":"Sagittarius",
+    "url":"../images/SunSign/Sagittarius.png"
+},
+{
+    "name":"Scorpoion",
+    "url":"../images/SunSign/Scorpoion.png"
+},
+{
+    "name":"Taurus",
+    "url":"../images/SunSign/Taurus.png"
+},
+{
+    "name":"Virgo",
+    "url":"../images/SunSign/Virgo.png"
+}]

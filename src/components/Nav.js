@@ -1,9 +1,13 @@
 import React from 'react'
-import logo from "../images/logo.jpeg"
+import logo from "../images/logo.png"
+import {Link} from "react-router-dom"
+import {FcHome,FcServices,FcGallery,FcContacts,FcAbout,FcRadarPlot} from "react-icons/fc"
+
+
 function Nav() {
     return (
         
-        <nav class="navbar navbar-expand-lg navbar-dark text-white bg-transparent fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark text-white fixed-top">
         <div class="container">
         <span class="navbar-brand logo"><img src={logo} height="70" width="120" alt="logo"/></span>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -12,12 +16,12 @@ function Nav() {
       
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item mr-5 hover">Home </li>
-            <li class="nav-item mr-5 hover">Horoscope </li>
-            <li class="nav-item mr-5 hover">Astro Services </li>
-            <li class="nav-item mr-5 hover">About Me </li>
-            <li class="nav-item mr-5 hover">Gallary </li>
-            <li class="nav-item mr-5 hover">Contact Us</li>
+            <Link class="nav-item mr-5 hover" to="/"><FcHome style={{fontSize:30}}/> Home</Link> 
+            <Link class="nav-item mr-5 hover" to="/Horoscope"><FcRadarPlot style={{fontSize:30}}/>Horoscope </Link>
+            <li class="nav-item mr-5 hover"><FcServices style={{fontSize:30}}/>Astro Services </li>
+            <Link class="nav-item mr-5 hover" to="/about"><FcAbout style={{fontSize:30}}/>About Us</Link> 
+            <li class="nav-item mr-5 hover"><FcGallery style={{fontSize:30}}/>Gallary </li>
+            <Link class="nav-item mr-5 hover" to="/contact"><FcContacts style={{fontSize:30}}/>Contact Us</Link>
         </ul>
         </div>
         </div>
