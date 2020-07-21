@@ -64,13 +64,18 @@ body{
   background:linear-gradient(45deg, rgba(0, 0, 0, 0.5),rgba(41, 39, 39, 0.5))!important;
   border-radius: 20%!important;
 }
+.popcard{
+  transition: 0.5s all ease-in;
+}
 .popcard:hover{
   box-shadow: 5px 5px 5px tomato;
   background-color: cadetblue!important;
   cursor:pointer;
-  transition: 0.5s linear;
 }
 .popcard img:hover{
- height:210px;
- width:210px;
+ 
+ scale: 110%;
+}
+.popcard img{
+  transition: 0.2s all linear;
 }
