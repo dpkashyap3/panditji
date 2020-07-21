@@ -5,7 +5,7 @@ import {motion} from "framer-motion"
 function About() {
     return (
         
-            <div className="intro banner text-white container">
+            <motion.div initial={{x:'100vw'}} animate={{x:0}} transition={{delay:0.3}} className="intro banner text-white container">
                 <div className="row m-5 p-5">
                 <div className="col-lg-8 card card-trans">
                 <motion.h1 className="display-4 card-title p-3"><strong>Panditji.Com</strong></motion.h1>
@@ -19,7 +19,7 @@ function About() {
                 <motion.img animate={{scale:1}} initial={{scale:0.1}} src={pandit} alt="panditji"/>
                 </div>
                 </div>
-                </div>
+                </motion.div>
                 
                 
         

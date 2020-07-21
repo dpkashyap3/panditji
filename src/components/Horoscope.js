@@ -72,7 +72,7 @@ function Horoscope() {
 
     return (
         
-            <div className="intro banner text-white container">
+            <motion.div initial={{x:'-100vw'}} animate={{x:0}} transition={{delay:0.3,type:"tween"}} className="intro banner text-white container">
                 <div className="row m-5 p-5">
                 <div className="card card-trans">
                 <motion.h1 className="display-4 card-title p-3"><strong>Horoscope</strong></motion.h1>
@@ -93,7 +93,7 @@ function Horoscope() {
                 </div>
                 </div>   
                 </div>
-                </div>
+                </motion.div>
                 
                 
         

@@ -12,7 +12,7 @@ function Contact() {
     
 
     return (
-            <div className="intro banner text-white container">
+            <motion.div initial={{y:'100vh'}} animate={{y:0}} transition={{delay:0.3}} className="intro banner text-white container">
                 <div className="row m-5 p-5">
                
                 <div className="col-lg-8 card card-trans">
@@ -52,7 +52,7 @@ function Contact() {
                 <motion.img animate={{scale:1}} initial={{scale:0.1}} src={pandit} alt="panditji"/>
                 </div>
                 </div>
-                </div>
+                </motion.div>
                 
                 
         
