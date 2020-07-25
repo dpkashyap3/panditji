@@ -2,7 +2,7 @@
   "name": "panditji",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://dpkashyap3.github.io/panditji",
+  "homepage": "https://dpkashyap3.github.io/panditji",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
