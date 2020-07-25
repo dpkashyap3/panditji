@@ -3,6 +3,8 @@ import Jumbo from "./Jumbo"
 import About from "./About"
 import Contact from "./Contact"
 import Horoscope from "./Horoscope"
+import Services from "./Services"
+import Gallery from "./Gallaery"
 import {Route,Switch} from "react-router-dom";
 import {FiFacebook,FiInstagram,FiTwitter,FiPhoneCall,FiMail} from "react-icons/fi"
 import "./Jumbo.css"
@@ -18,6 +20,8 @@ function Home() {
              <Route path="/about" component={About}/>
              <Route path="/contact" component={Contact}/>
              <Route path="/horoscope" component={Horoscope}/>
+             <Route path="/services" component={Services}/>
+             <Route path="/gallery" component={Gallery}/>
             </Switch>
             </div>
          

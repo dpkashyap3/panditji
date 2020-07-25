@@ -3,9 +3,22 @@ import pandit from "../images/panditji.png"
 import {motion} from "framer-motion"
 
 function About() {
+    const pageload={
+        initial:{
+            x:'100vw'
+        },
+        animate:{
+            x:0,
+            transition:{
+                delay:0.3,
+                type:"tween"
+            }
+            
+        }
+    }
     return (
         
-            <motion.div initial={{x:'100vw'}} animate={{x:0}} transition={{delay:0.3}} className="intro banner text-white container">
+            <motion.div variants={pageload} initial="initial" animate="animate" className="intro banner text-white container">
                 <div className="row m-5 p-5">
                 <div className="col-lg-8 card card-trans">
                 <motion.h1 className="display-4 card-title p-3"><strong>Panditji.Com</strong></motion.h1>

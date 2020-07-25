@@ -4,6 +4,20 @@ import {motion} from "framer-motion"
 
 function Contact() {
 
+  const pageload={
+    initial:{
+        y:'100vw'
+    },
+    animate:{
+        y:0,
+        transition:{
+            delay:0.3,
+            type:"spring"
+        }
+        
+    }
+}
+
     const [name, setname] = useState();
     const [email, setemail] = useState();
     const [tel, settel] = useState();
@@ -12,7 +26,7 @@ function Contact() {
     
 
     return (
-            <motion.div initial={{y:'100vh'}} animate={{y:0}} transition={{delay:0.3}} className="intro banner text-white container">
+            <motion.div variants={pageload} initial="initial" animate="animate" className="intro banner text-white container">
                 <div className="row m-5 p-5">
                
                 <div className="col-lg-8 card card-trans">

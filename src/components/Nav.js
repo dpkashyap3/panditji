@@ -18,9 +18,9 @@ function Nav() {
           <ul class="navbar-nav ml-auto">
             <Link class="nav-item mr-5 hover" to="/"><FcHome style={{fontSize:30}}/> Home</Link> 
             <Link class="nav-item mr-5 hover" to="/Horoscope"><FcRadarPlot style={{fontSize:30}}/>Horoscope </Link>
-            <li class="nav-item mr-5 hover"><FcServices style={{fontSize:30}}/>Astro Services </li>
+            <Link class="nav-item mr-5 hover" to="/services"><FcServices style={{fontSize:30}}/>Astro Services </Link>
             <Link class="nav-item mr-5 hover" to="/about"><FcAbout style={{fontSize:30}}/>About Us</Link> 
-            <li class="nav-item mr-5 hover"><FcGallery style={{fontSize:30}}/>Gallary </li>
+            <Link class="nav-item mr-5 hover" to="/gallery"><FcGallery style={{fontSize:30}}/>Gallary </Link>
             <Link class="nav-item mr-5 hover" to="/contact"><FcContacts style={{fontSize:30}}/>Contact Us</Link>
         </ul>
         </div>
